@@ -60,13 +60,13 @@ function startGame() {
 
      // create a car
 
-     let car = document.createElement('div');
+     let car = document.getElementById('maincar');
      car.setAttribute('class', 'car');
      car.innerText = "Car";
-     car.style.left = "10px";
-     car.style.top = "10px";
+     car.style.left = "250px";
+     car.style.top = "20px";
      
-     car.style.backgroundColor = "red";
+     car.style.backgroundColor = "white";
      gameScreen.appendChild(car);
 
      requestAnimationFrame(start)
